@@ -45,7 +45,6 @@ var _ = Describe("Ensurer", func() {
 		ctx  = context.TODO()
 
 		dummyContext = gcontext.NewGardenContext(nil, nil)
-
 		eContextK8s127 = gcontext.NewInternalGardenContext(
 			&extensionscontroller.Cluster{
 				Shoot: &gardencorev1beta1.Shoot{
